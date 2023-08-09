@@ -4,7 +4,7 @@ const OmsContext = createContext();
 
 function OmsProvider({children}) {
     const contextData = {
-        backendUrl: "http://localhost:3000"
+        backendUrl: "https://web-production-5370.up.railway.app"
     }
 
     return (
