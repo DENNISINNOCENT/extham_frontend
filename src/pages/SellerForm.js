@@ -65,7 +65,7 @@ const SellerForm = ({suppliers, buyers, handleUpdateSupplierForm}) => {
             </select>
           </div>
 
-           <div  className="col-md-6 mb-2">
+           {/* <div  className="col-md-6 mb-2">
             <label htmlFor="SupplierName" style={{ fontWeight: 'bold' }}>Supplier Name:</label>
             <select
               id="SupplierName"
@@ -81,7 +81,7 @@ const SellerForm = ({suppliers, buyers, handleUpdateSupplierForm}) => {
                 </option>
               ))}
             </select>
-          </div> 
+          </div>  */}
 
           <div  className="col-md-6 mb-2">
             <label htmlFor="assignTo" style={{ fontWeight: 'bold' }}>Assigned To:</label>
